@@ -10,6 +10,7 @@
 .local
 .cache
 .pnp*
+/.next 
 
 # logs
 npm-debug.log*

@@ -28,8 +28,8 @@ export const projects = () => {
                         href={"/#experience"}
                         key="0"
                         passHref>
-                    <a>Experience</a>
-                </Link>{"section of this website. One particular project that took some tinkering, and is something I can talk freely about, is minimizing the size of docker images when working with the NVidia toolkit. These images started out somewhere in the neighborhood of ~18GB's per image. I was able to pull this number all the way down to about 4GB's by extracting only essential tools and rebuilding the entire link system to allow our OCR tools to interact with the toolkit as if it was installed. This was an enormous save on deployment time and overall cost. Additionally, this solution lacks readily available documentation and resources explaining how to do this. This presented a unique challenge, and I plan to share my approach and findings by writing a medium article."}</p>
+                    Experience
+                </Link>{" section of this website. One particular project that took some tinkering, and is something I can talk freely about, is minimizing the size of docker images when working with the NVidia toolkit. These images started out somewhere in the neighborhood of ~18GB's per image. I was able to pull this number all the way down to about 4GB's by extracting only essential tools and rebuilding the entire link system to allow our OCR tools to interact with the toolkit as if it was installed. This was an enormous save on deployment time and overall cost. Additionally, this solution lacks readily available documentation and resources explaining how to do this. This presented a unique challenge, and I plan to share my approach and findings by writing a medium article."}</p>
                 <h3>Normal Map Tool</h3>
                 <p>Early on I was interested in working with 3D graphics. Nowadays much better versions of this type of software exist, but this was my first attempt at creating a normal map creation tool!</p>
                 <p><a href={"https://github.com/NathanLaning/Normal-Map-Tool/tree/main"}>Github</a></p>
@@ -50,7 +50,7 @@ export const projects = () => {
                 height={703}
                 className={styles.portfolio_photo}
             />
-            <p>The main reason this thing looks so wild is I procured a Titan for its high quantites of VRAM so that I could run pretty moderate sized AI models on this machine, along with any other number crunchy projects without bogging down my own machine. The extra space also allowed me to add some full size hard drives. Unsuprisingly all of this gets a little hot so there are a couple of fans strapped to it, like the one seen in the photo</p>
+            <p>{"The main quality that makes this thing look so unique is the Titan I procured for it. The Titan was my GPU of choice due to its high quantities of VRAM, allowing me to run moderately sized AI models on this machine, as well as any other “number crunchy” projects, without bogging down my personal machine. The extra space in the chassis also allowed me to add some full-size hard drives. Unsurprisingly, all of this gets a little hot, resulting in the addition of a few fans, allowing me to optimize the performance of the machine."}</p>
             <h3>Sewing projects!</h3>
             <p> A much more recent hobby of mine has been sewing gear. This includes bike bags, chalk bags for climbing, and gear for my dog, and fixing pretty much anything that breaks!</p>
             <Image
