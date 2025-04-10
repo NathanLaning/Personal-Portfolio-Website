@@ -1,0 +1,45 @@
+
+  
+  .text_left_and_right{
+    justify-content: space-between;
+    display: flex;
+  }
+  .portfolio_photo{
+    width: auto;
+    left: 10%;
+    max-width: 80%;
+    height: auto;
+    margin: 1.5em 0;
+    margin-left: 10%;
+  }
+  
+  .contents h1{
+    padding-bottom: .2em;
+    padding-top: .2em;
+  }
+  .contents h2{
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: 1em;
+  }
+  .contents h3{
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: 2em;
+  }
+  .contents h4{
+    color: #aaa;
+    padding-bottom: .5em;
+    padding-top: .5em;
+  }
+  .contents p{
+    padding-left: 3em;
+  }
+  .contents ul{
+    padding-left: 4.5em;
+  }
+
+  .contents a{
+    color:#aaf;
+    text-decoration: underline;
+  }
